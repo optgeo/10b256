@@ -25,7 +25,6 @@
     },
     {
       "id": "i",
-      "maxzoom": 18,
       "minzoom": 3,
       "source": "slopemap",
       "type": "raster"
@@ -104,8 +103,8 @@
   "site_root": "https://optgeo.github.io/10b256",
   "sources": {
     "h": {
-      "maxzoom": 13,
-      "minzoom": 10,
+      "maxzoom": 12,
+      "minzoom": 3,
       "tileSize": 256,
       "tiles": [
         "https://optgeo.github.io/10b256/zxy/{z}/{x}/{y}.webp"
@@ -113,9 +112,8 @@
       "type": "raster-dem"
     },
     "i": {
-      "attribution": "地理院タイル",
-      "maxzoom": 13,
-      "minzoom": 10,
+      "maxzoom": 12,
+      "minzoom": 3,
       "tileSize": 256,
       "tiles": [
         "https://optgeo.github.io/10b256/zxy/{z}/{x}/{y}.webp"

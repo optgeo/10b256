@@ -10,7 +10,7 @@ sh "mkdir -p #{CONFIG['DST_DIR']}/#{z}/#{x}"
 sh [
   "curl #{CONFIG['BASE_URL']}/#{z}/#{x}/#{y}.png |",
   "node ../boxer/index.js |",
-  "cwebp -lossless -o #{CONFIG['DST_DIR']}/#{z}/#{x}/#{y}.webp -- -"
+  "cwebp -lossless -z 7 -o #{CONFIG['DST_DIR']}/#{z}/#{x}/#{y}.webp -- -"
 ].join(' ')
 
 
